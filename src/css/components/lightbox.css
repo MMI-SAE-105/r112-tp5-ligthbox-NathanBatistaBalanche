@@ -20,3 +20,14 @@
     opacity :0.6;
     transition: background-color 3s ease, opacity 3s ease;
 }
+
+@keyframes openLightbox {
+    0% {
+      transform: scale(0.8); /* Commence plus petit */
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1); /* Fin à taille normale */
+      opacity: 1;
+    }
+  }
