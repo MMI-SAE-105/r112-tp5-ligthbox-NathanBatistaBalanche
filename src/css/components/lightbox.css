@@ -8,3 +8,9 @@
     border-radius: 20px; 
     border: 5px solid darkblue;
   }
+
+#lightbox img {
+  width: 100%; 
+  max-width: 100vw;
+  height: auto; 
+}
